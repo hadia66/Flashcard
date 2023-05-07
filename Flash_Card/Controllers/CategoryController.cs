@@ -54,7 +54,7 @@ namespace Flash_Card.Controllers
         public async Task<IActionResult> GetAllProducts()
         {
             var Result = await _Categoryservice.GetAllCProducts();
-       _localization.
+  
             return Ok(Result);
         }
 
